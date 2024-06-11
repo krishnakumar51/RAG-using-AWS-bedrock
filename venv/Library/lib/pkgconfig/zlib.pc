@@ -1,0 +1,13 @@
+prefix=D:/projects on linkedin/bedrock/venv/Library
+exec_prefix=D:/projects on linkedin/bedrock/venv/Library
+libdir=D:/projects on linkedin/bedrock/venv/Library/lib
+sharedlibdir=D:/projects on linkedin/bedrock/venv/Library/lib
+includedir=D:/projects on linkedin/bedrock/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
